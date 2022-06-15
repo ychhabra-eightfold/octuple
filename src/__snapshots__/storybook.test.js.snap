@@ -33,7 +33,7 @@ exports[`Storyshots Accordion List Horizontal 1`] = `
         <div
           aria-controls="1-content"
           aria-expanded={false}
-          className="accordion-summary"
+          className="accordion-summary header4"
           id="1-header"
           onClick={[Function]}
           onKeyDown={[Function]}
@@ -121,7 +121,7 @@ exports[`Storyshots Accordion List Horizontal 1`] = `
           role="region"
         >
           <div
-            className="accordion-body show-border-top"
+            className="accordion-body show-border-top body2"
           >
             Body 2 text used here. Bottom bars are sticky sections that
         can be used to highlight a few actions that are out of the
@@ -148,7 +148,7 @@ exports[`Storyshots Accordion List Horizontal 1`] = `
         <div
           aria-controls="2-content"
           aria-expanded={false}
-          className="accordion-summary"
+          className="accordion-summary header4"
           id="2-header"
           onClick={[Function]}
           onKeyDown={[Function]}
@@ -236,7 +236,7 @@ exports[`Storyshots Accordion List Horizontal 1`] = `
           role="region"
         >
           <div
-            className="accordion-body show-border-top"
+            className="accordion-body show-border-top body2"
           >
             Body 2 text used here. Bottom bars are sticky sections that
         can be used to highlight a few actions that are out of the
@@ -297,7 +297,7 @@ exports[`Storyshots Accordion List Vertical 1`] = `
         <div
           aria-controls="1-content"
           aria-expanded={false}
-          className="accordion-summary"
+          className="accordion-summary header4"
           id="1-header"
           onClick={[Function]}
           onKeyDown={[Function]}
@@ -385,7 +385,7 @@ exports[`Storyshots Accordion List Vertical 1`] = `
           role="region"
         >
           <div
-            className="accordion-body show-border-top"
+            className="accordion-body show-border-top body2"
           >
             Body 2 text used here. Bottom bars are sticky sections that
         can be used to highlight a few actions that are out of the
@@ -412,7 +412,7 @@ exports[`Storyshots Accordion List Vertical 1`] = `
         <div
           aria-controls="2-content"
           aria-expanded={false}
-          className="accordion-summary"
+          className="accordion-summary header4"
           id="2-header"
           onClick={[Function]}
           onKeyDown={[Function]}
@@ -500,7 +500,7 @@ exports[`Storyshots Accordion List Vertical 1`] = `
           role="region"
         >
           <div
-            className="accordion-body show-border-top"
+            className="accordion-body show-border-top body2"
           >
             Body 2 text used here. Bottom bars are sticky sections that
         can be used to highlight a few actions that are out of the
@@ -535,7 +535,7 @@ exports[`Storyshots Accordion Single 1`] = `
   <div
     aria-controls="myAccordionId-content"
     aria-expanded={false}
-    className="accordion-summary"
+    className="accordion-summary header4"
     id="myAccordionId-header"
     onClick={[Function]}
     onKeyDown={[Function]}
@@ -576,7 +576,7 @@ exports[`Storyshots Accordion Single 1`] = `
     role="region"
   >
     <div
-      className="accordion-body show-border-top"
+      className="accordion-body show-border-top body2"
     >
       <div
         style={
@@ -637,7 +637,7 @@ exports[`Storyshots Avatar Avatar Icon 1`] = `
   className="wrapper-style my-avatar-class image-style"
   style={
     Object {
-      "backgroundColor": "grey",
+      "backgroundColor": "var(--accent-color-20)",
       "fontSize": "18px",
       "height": "40px",
       "minHeight": "40px",
@@ -702,7 +702,7 @@ exports[`Storyshots Avatar Avatar Round Icon 1`] = `
   className="wrapper-style my-avatar-class image-style round-image"
   style={
     Object {
-      "backgroundColor": "grey",
+      "backgroundColor": "var(--accent-color-20)",
       "fontSize": "18px",
       "height": "40px",
       "minHeight": "40px",
@@ -770,7 +770,7 @@ exports[`Storyshots Button Counter 1`] = `
 <button
   aria-disabled={false}
   aria-label="Primary Button"
-  className="my-btn-class button button-primary icon-left"
+  className="my-btn-class button button-primary pill-shape icon-left"
   data-test-id="my-btn-test-id"
   defaultChecked={false}
   disabled={false}
@@ -824,7 +824,7 @@ exports[`Storyshots Button Default 1`] = `
 <button
   aria-disabled={false}
   aria-label="Default Button"
-  className="my-btn-class button button-default icon-left"
+  className="my-btn-class button button-default pill-shape icon-left"
   data-test-id="my-btn-test-id"
   defaultChecked={false}
   disabled={false}
@@ -873,7 +873,7 @@ exports[`Storyshots Button Neutral 1`] = `
 <button
   aria-disabled={false}
   aria-label="Neutral Button"
-  className="my-btn-class button button-neutral icon-left"
+  className="my-btn-class button button-neutral pill-shape icon-left"
   data-test-id="my-btn-test-id"
   defaultChecked={false}
   disabled={false}
@@ -922,7 +922,7 @@ exports[`Storyshots Button Primary 1`] = `
 <button
   aria-disabled={false}
   aria-label="Primary Button"
-  className="my-btn-class button button-primary icon-left"
+  className="my-btn-class button button-primary pill-shape icon-left"
   data-test-id="my-btn-test-id"
   defaultChecked={false}
   disabled={false}
@@ -971,7 +971,7 @@ exports[`Storyshots Button Secondary 1`] = `
 <button
   aria-disabled={false}
   aria-label="Secondary Button"
-  className="my-btn-class button button-secondary icon-left"
+  className="my-btn-class button button-secondary pill-shape icon-left"
   data-test-id="my-btn-test-id"
   defaultChecked={false}
   disabled={false}
@@ -1021,7 +1021,7 @@ Array [
   <button
     aria-disabled={false}
     aria-label="Split Button"
-    className="my-btn-class button button-primary split-left"
+    className="my-btn-class button button-primary pill-shape split-left"
     data-test-id="my-btn-test-id"
     defaultChecked={false}
     disabled={false}
@@ -1039,7 +1039,7 @@ Array [
     aria-checked={false}
     aria-disabled={false}
     aria-pressed={false}
-    className="my-btn-class button button-primary undefined split-button split-right"
+    className="my-btn-class button button-primary pill-shape undefined split-button pill-shape split-right"
     defaultChecked={false}
     disabled={false}
     type="button"
@@ -1082,7 +1082,7 @@ Array [
   <button
     aria-disabled={false}
     aria-label="Split Button"
-    className="my-btn-class button button-primary split-left"
+    className="my-btn-class button button-primary pill-shape split-left"
     data-test-id="my-btn-test-id"
     defaultChecked={false}
     disabled={false}
@@ -1105,7 +1105,7 @@ Array [
     aria-checked={false}
     aria-disabled={false}
     aria-pressed={false}
-    className="my-btn-class button button-primary undefined split-button split-right"
+    className="my-btn-class button button-primary pill-shape undefined split-button pill-shape split-right"
     defaultChecked={false}
     disabled={false}
     type="button"
@@ -1149,7 +1149,7 @@ exports[`Storyshots Button Toggle 1`] = `
   aria-disabled={false}
   aria-label="Toggle Button"
   aria-pressed={false}
-  className="my-btn-class button button-primary icon-right"
+  className="my-btn-class button button-primary pill-shape icon-right"
   data-test-id="my-btn-test-id"
   defaultChecked={false}
   disabled={false}
@@ -1200,7 +1200,7 @@ exports[`Storyshots Button Toggle With Counter 1`] = `
   aria-disabled={false}
   aria-label="Toggle Button"
   aria-pressed={false}
-  className="my-btn-class button button-primary icon-right"
+  className="my-btn-class button button-primary pill-shape icon-right"
   data-test-id="my-btn-test-id"
   defaultChecked={false}
   disabled={false}
@@ -1256,7 +1256,7 @@ exports[`Storyshots Button Two State Button 1`] = `
   aria-disabled={false}
   aria-label="Two State Button"
   aria-pressed={false}
-  className="my-two-state-btn-class button two-state-button"
+  className="my-two-state-btn-class button two-state-button pill-shape"
   defaultChecked={false}
   disabled={false}
   id="myTwoStateButton"
@@ -1496,7 +1496,18 @@ exports[`Storyshots Config Provider Theming 1`] = `
         }
       }
     >
-      blue
+      Primary |
+    </span>
+    <span
+      style={
+        Object {
+          "color": "var(--accent-color-30)",
+          "marginLeft": "4px",
+          "textTransform": "capitalize",
+        }
+      }
+    >
+      | Accent
     </span>
   </h1>
   <div
@@ -1529,6 +1540,11 @@ exports[`Storyshots Config Provider Theming 1`] = `
           red
         </option>
         <option
+          value="redOrange"
+        >
+          redOrange
+        </option>
+        <option
           value="orange"
         >
           orange
@@ -1539,14 +1555,19 @@ exports[`Storyshots Config Provider Theming 1`] = `
           yellow
         </option>
         <option
+          value="yellowGreen"
+        >
+          yellowGreen
+        </option>
+        <option
           value="green"
         >
           green
         </option>
         <option
-          value="bluegreen"
+          value="blueGreen"
         >
-          bluegreen
+          blueGreen
         </option>
         <option
           value="blue"
@@ -1554,9 +1575,19 @@ exports[`Storyshots Config Provider Theming 1`] = `
           blue
         </option>
         <option
+          value="blueViolet"
+        >
+          blueViolet
+        </option>
+        <option
           value="violet"
         >
           violet
+        </option>
+        <option
+          value="violetRed"
+        >
+          violetRed
         </option>
         <option
           value="grey"
@@ -1567,7 +1598,7 @@ exports[`Storyshots Config Provider Theming 1`] = `
     </div>
     <div>
       <p>
-        Custom
+        Custom Primary
       </p>
       <div
         style={
@@ -3405,6 +3436,1846 @@ exports[`Storyshots Config Provider Theming 1`] = `
         </div>
       </div>
     </div>
+    <div>
+      <p>
+        Custom Accent
+      </p>
+      <div
+        style={
+          Object {
+            "display": "inline-block",
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "MozBorderRadius": 2,
+              "MozBoxShadow": "0 2px 10px rgba(0,0,0,.12), 0 2px 5px rgba(0,0,0,.16)",
+              "OBorderRadius": 2,
+              "OBoxShadow": "0 2px 10px rgba(0,0,0,.12), 0 2px 5px rgba(0,0,0,.16)",
+              "WebkitBorderRadius": 2,
+              "WebkitBoxShadow": "0 2px 10px rgba(0,0,0,.12), 0 2px 5px rgba(0,0,0,.16)",
+              "background": "#fff",
+              "borderRadius": 2,
+              "bottom": "0px",
+              "boxShadow": "0 2px 10px rgba(0,0,0,.12), 0 2px 5px rgba(0,0,0,.16)",
+              "left": "0px",
+              "msBorderRadius": 2,
+              "msBoxShadow": "0 2px 10px rgba(0,0,0,.12), 0 2px 5px rgba(0,0,0,.16)",
+              "position": "absolute",
+              "right": "0px",
+              "top": "0px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            className="compact-picker "
+            style={
+              Object {
+                "boxSizing": "initial",
+                "paddingLeft": "5px",
+                "paddingTop": "5px",
+                "width": "240px",
+              }
+            }
+          >
+            <div>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#4D4D4D",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#4D4D4D"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#fff",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#999999",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#999999"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#000",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "MozBoxShadow": "inset 0 0 0 1px #ddd",
+                      "OBoxShadow": "inset 0 0 0 1px #ddd",
+                      "WebkitBoxShadow": "inset 0 0 0 1px #ddd",
+                      "background": "#FFFFFF",
+                      "boxShadow": "inset 0 0 0 1px #ddd",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "msBoxShadow": "inset 0 0 0 1px #ddd",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#FFFFFF"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#000",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#F44E3B",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#F44E3B"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#fff",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#FE9200",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#FE9200"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#000",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#FCDC00",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#FCDC00"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#000",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#DBDF00",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#DBDF00"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#000",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#A4DD00",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#A4DD00"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#000",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#68CCCA",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#68CCCA"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#000",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#73D8FF",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#73D8FF"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#000",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#AEA1FF",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#AEA1FF"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#000",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#FDA1FF",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#FDA1FF"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#000",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#333333",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#333333"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#fff",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#808080",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#808080"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#000",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#cccccc",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#cccccc"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#000",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#D33115",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#D33115"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#fff",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#E27300",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#E27300"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#000",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#FCC400",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#FCC400"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#000",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#B0BC00",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#B0BC00"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#000",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#68BC00",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#68BC00"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#000",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#16A5A5",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#16A5A5"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#fff",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#009CE0",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#009CE0"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#fff",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#7B64FF",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#7B64FF"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#fff",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#FA28FF",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#FA28FF"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#fff",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#000000",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#000000"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#fff",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "1",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#666666",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#666666"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#fff",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#B3B3B3",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#B3B3B3"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#000",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#9F0500",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#9F0500"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#fff",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#C45100",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#C45100"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#fff",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#FB9E00",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#FB9E00"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#000",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#808900",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#808900"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#fff",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#194D33",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#194D33"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#fff",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#0C797D",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#0C797D"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#fff",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#0062B1",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#0062B1"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#fff",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#653294",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#653294"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#fff",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#AB149E",
+                      "cursor": "pointer",
+                      "float": "left",
+                      "height": "15px",
+                      "marginBottom": "5px",
+                      "marginRight": "5px",
+                      "outline": "none",
+                      "position": "relative",
+                      "width": "15px",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#AB149E"
+                >
+                  <div
+                    style={
+                      Object {
+                        "MozBorderRadius": "50%",
+                        "OBorderRadius": "50%",
+                        "WebkitBorderRadius": "50%",
+                        "background": "#fff",
+                        "borderRadius": "50%",
+                        "bottom": "5px",
+                        "left": "5px",
+                        "msBorderRadius": "50%",
+                        "opacity": "0",
+                        "position": "absolute",
+                        "right": "5px",
+                        "top": "5px",
+                      }
+                    }
+                  />
+                </div>
+              </span>
+              <div
+                style={
+                  Object {
+                    "clear": "both",
+                  }
+                }
+              />
+            </div>
+            <div
+              className="flexbox-fix"
+              style={
+                Object {
+                  "display": "flex",
+                  "paddingBottom": "6px",
+                  "paddingRight": "5px",
+                  "position": "relative",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "background": "#000000",
+                    "height": "9px",
+                    "left": "5px",
+                    "position": "absolute",
+                    "top": "6px",
+                    "width": "9px",
+                  }
+                }
+              />
+              <div
+                style={
+                  Object {
+                    "MozBoxFlex": "6",
+                    "WebkitBoxFlex": "6",
+                    "WebkitFlex": "6",
+                    "flex": "6",
+                    "msFlex": "6",
+                    "position": "relative",
+                  }
+                }
+              >
+                <input
+                  id="rc-editable-input-5"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  spellCheck="false"
+                  style={
+                    Object {
+                      "background": "none",
+                      "border": "none",
+                      "color": "#333",
+                      "fontSize": "12px",
+                      "height": "16px",
+                      "outline": "none",
+                      "padding": "0px",
+                      "paddingLeft": "20%",
+                      "width": "80%",
+                    }
+                  }
+                  value="#000000"
+                />
+                <label
+                  htmlFor="rc-editable-input-5"
+                  onMouseDown={[Function]}
+                  style={
+                    Object {
+                      "display": "none",
+                    }
+                  }
+                >
+                  hex
+                </label>
+              </div>
+              <div
+                style={
+                  Object {
+                    "MozBoxFlex": "3",
+                    "WebkitBoxFlex": "3",
+                    "WebkitFlex": "3",
+                    "flex": "3",
+                    "msFlex": "3",
+                    "position": "relative",
+                  }
+                }
+              >
+                <input
+                  id="rc-editable-input-6"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  spellCheck="false"
+                  style={
+                    Object {
+                      "background": "none",
+                      "border": "none",
+                      "color": "#333",
+                      "fontSize": "12px",
+                      "height": "16px",
+                      "outline": "none",
+                      "padding": "0px",
+                      "paddingLeft": "30%",
+                      "width": "70%",
+                    }
+                  }
+                  value="0"
+                />
+                <label
+                  htmlFor="rc-editable-input-6"
+                  onMouseDown={[Function]}
+                  style={
+                    Object {
+                      "color": "#999",
+                      "fontSize": "12px",
+                      "left": "0px",
+                      "lineHeight": "16px",
+                      "position": "absolute",
+                      "textTransform": "uppercase",
+                      "top": "3px",
+                    }
+                  }
+                >
+                  r
+                </label>
+              </div>
+              <div
+                style={
+                  Object {
+                    "MozBoxFlex": "3",
+                    "WebkitBoxFlex": "3",
+                    "WebkitFlex": "3",
+                    "flex": "3",
+                    "msFlex": "3",
+                    "position": "relative",
+                  }
+                }
+              >
+                <input
+                  id="rc-editable-input-7"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  spellCheck="false"
+                  style={
+                    Object {
+                      "background": "none",
+                      "border": "none",
+                      "color": "#333",
+                      "fontSize": "12px",
+                      "height": "16px",
+                      "outline": "none",
+                      "padding": "0px",
+                      "paddingLeft": "30%",
+                      "width": "70%",
+                    }
+                  }
+                  value="0"
+                />
+                <label
+                  htmlFor="rc-editable-input-7"
+                  onMouseDown={[Function]}
+                  style={
+                    Object {
+                      "color": "#999",
+                      "fontSize": "12px",
+                      "left": "0px",
+                      "lineHeight": "16px",
+                      "position": "absolute",
+                      "textTransform": "uppercase",
+                      "top": "3px",
+                    }
+                  }
+                >
+                  g
+                </label>
+              </div>
+              <div
+                style={
+                  Object {
+                    "MozBoxFlex": "3",
+                    "WebkitBoxFlex": "3",
+                    "WebkitFlex": "3",
+                    "flex": "3",
+                    "msFlex": "3",
+                    "position": "relative",
+                  }
+                }
+              >
+                <input
+                  id="rc-editable-input-8"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  spellCheck="false"
+                  style={
+                    Object {
+                      "background": "none",
+                      "border": "none",
+                      "color": "#333",
+                      "fontSize": "12px",
+                      "height": "16px",
+                      "outline": "none",
+                      "padding": "0px",
+                      "paddingLeft": "30%",
+                      "width": "70%",
+                    }
+                  }
+                  value="0"
+                />
+                <label
+                  htmlFor="rc-editable-input-8"
+                  onMouseDown={[Function]}
+                  style={
+                    Object {
+                      "color": "#999",
+                      "fontSize": "12px",
+                      "left": "0px",
+                      "lineHeight": "16px",
+                      "position": "absolute",
+                      "textTransform": "uppercase",
+                      "top": "3px",
+                    }
+                  }
+                >
+                  b
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <div
     className="stack horizontal m"
@@ -3419,7 +5290,7 @@ exports[`Storyshots Config Provider Theming 1`] = `
     <button
       aria-disabled={false}
       aria-label="Primary Button"
-      className="button button-primary button-size3"
+      className="button button-primary button-size3 pill-shape"
       defaultChecked={false}
       disabled={false}
     >
@@ -3432,7 +5303,7 @@ exports[`Storyshots Config Provider Theming 1`] = `
     <button
       aria-disabled={false}
       aria-label="Primary Button"
-      className="button button-primary button-size3 icon-left"
+      className="button button-primary button-size3 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -3465,7 +5336,7 @@ exports[`Storyshots Config Provider Theming 1`] = `
     <button
       aria-disabled={false}
       aria-label="Primary Button"
-      className="button button-primary button-size3 icon-left"
+      className="button button-primary button-size3 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -3516,7 +5387,7 @@ exports[`Storyshots Config Provider Theming 1`] = `
     <button
       aria-disabled={false}
       aria-label="Secondary Button"
-      className="button button-secondary button-size3"
+      className="button button-secondary button-size3 pill-shape"
       defaultChecked={false}
       disabled={false}
     >
@@ -3529,7 +5400,7 @@ exports[`Storyshots Config Provider Theming 1`] = `
     <button
       aria-disabled={false}
       aria-label="Secondary Button"
-      className="button button-secondary button-size3 icon-left"
+      className="button button-secondary button-size3 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -3562,7 +5433,7 @@ exports[`Storyshots Config Provider Theming 1`] = `
     <button
       aria-disabled={false}
       aria-label="Secondary Button"
-      className="button button-secondary button-size3 icon-left"
+      className="button button-secondary button-size3 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -3613,7 +5484,7 @@ exports[`Storyshots Config Provider Theming 1`] = `
     <button
       aria-disabled={false}
       aria-label="Default Button"
-      className="button button-default button-size3"
+      className="button button-default button-size3 pill-shape"
       defaultChecked={false}
       disabled={false}
     >
@@ -3626,7 +5497,7 @@ exports[`Storyshots Config Provider Theming 1`] = `
     <button
       aria-disabled={false}
       aria-label="Default Button"
-      className="button button-default button-size3 icon-left"
+      className="button button-default button-size3 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -3659,7 +5530,7 @@ exports[`Storyshots Config Provider Theming 1`] = `
     <button
       aria-disabled={false}
       aria-label="Default Button"
-      className="button button-default button-size3 icon-left"
+      className="button button-default button-size3 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -4065,7 +5936,7 @@ exports[`Storyshots Config Provider Theming 1`] = `
       className="match-score-circle"
     />
     <p
-      className="label"
+      className="label body2"
     >
       3
       /
@@ -4301,7 +6172,7 @@ exports[`Storyshots Config Provider Theming 1`] = `
 exports[`Storyshots Dialog Medium 1`] = `
 <button
   aria-disabled={false}
-  className="button button-primary"
+  className="button button-primary pill-shape"
   defaultChecked={false}
   disabled={false}
   onClick={[Function]}
@@ -4317,7 +6188,7 @@ exports[`Storyshots Dialog Medium 1`] = `
 exports[`Storyshots Dialog Small 1`] = `
 <button
   aria-disabled={false}
-  className="button button-primary button-primary-disruptive"
+  className="button button-primary button-primary-disruptive pill-shape"
   defaultChecked={false}
   disabled={false}
   onClick={[Function]}
@@ -4340,7 +6211,7 @@ exports[`Storyshots Dropdown Dropdown Button 1`] = `
     aria-disabled={false}
     aria-expanded={false}
     aria-haspopup={true}
-    className="button button-default icon-right"
+    className="button button-default pill-shape icon-right"
     defaultChecked={false}
     disabled={false}
     onClick={[Function]}
@@ -5091,7 +6962,7 @@ exports[`Storyshots Info Bar Disruptive 1`] = `
   <button
     aria-disabled={false}
     aria-label="Action"
-    className="my-action-btn-class button button-neutral"
+    className="my-action-btn-class button button-neutral pill-shape"
     data-test-id="my-action-btn-test-id"
     defaultChecked={false}
     disabled={false}
@@ -5106,7 +6977,7 @@ exports[`Storyshots Info Bar Disruptive 1`] = `
   <button
     aria-disabled={false}
     aria-label="Close"
-    className="my-close-btn-class button button-neutral icon-left"
+    className="my-close-btn-class button button-neutral pill-shape icon-left"
     data-test-id="my-close-btn-test-id"
     defaultChecked={false}
     disabled={false}
@@ -5180,7 +7051,7 @@ exports[`Storyshots Info Bar Neutral 1`] = `
   <button
     aria-disabled={false}
     aria-label="Action"
-    className="my-action-btn-class button button-neutral"
+    className="my-action-btn-class button button-neutral pill-shape"
     data-test-id="my-action-btn-test-id"
     defaultChecked={false}
     disabled={false}
@@ -5195,7 +7066,7 @@ exports[`Storyshots Info Bar Neutral 1`] = `
   <button
     aria-disabled={false}
     aria-label="Close"
-    className="my-close-btn-class button button-neutral icon-left"
+    className="my-close-btn-class button button-neutral pill-shape icon-left"
     data-test-id="my-close-btn-test-id"
     defaultChecked={false}
     disabled={false}
@@ -5269,7 +7140,7 @@ exports[`Storyshots Info Bar Positive 1`] = `
   <button
     aria-disabled={false}
     aria-label="Action"
-    className="my-action-btn-class button button-neutral"
+    className="my-action-btn-class button button-neutral pill-shape"
     data-test-id="my-action-btn-test-id"
     defaultChecked={false}
     disabled={false}
@@ -5284,7 +7155,7 @@ exports[`Storyshots Info Bar Positive 1`] = `
   <button
     aria-disabled={false}
     aria-label="Close"
-    className="my-close-btn-class button button-neutral icon-left"
+    className="my-close-btn-class button button-neutral pill-shape icon-left"
     data-test-id="my-close-btn-test-id"
     defaultChecked={false}
     disabled={false}
@@ -5358,7 +7229,7 @@ exports[`Storyshots Info Bar Warning 1`] = `
   <button
     aria-disabled={false}
     aria-label="Action"
-    className="my-action-btn-class button button-neutral"
+    className="my-action-btn-class button button-neutral pill-shape"
     data-test-id="my-action-btn-test-id"
     defaultChecked={false}
     disabled={false}
@@ -5373,7 +7244,7 @@ exports[`Storyshots Info Bar Warning 1`] = `
   <button
     aria-disabled={false}
     aria-label="Close"
-    className="my-close-btn-class button button-neutral icon-left"
+    className="my-close-btn-class button button-neutral pill-shape icon-left"
     data-test-id="my-close-btn-test-id"
     defaultChecked={false}
     disabled={false}
@@ -5436,7 +7307,7 @@ exports[`Storyshots Input Search Box 1`] = `
         >
           <button
             aria-disabled={false}
-            className="label-icon-button button button-default button-size3 icon-left"
+            className="label-icon-button button button-default button-size3 pill-shape icon-left"
             defaultChecked={false}
             disabled={false}
           >
@@ -5472,7 +7343,7 @@ exports[`Storyshots Input Search Box 1`] = `
     <input
       aria-label="Search"
       autoFocus={false}
-      className="my-searchbox-class with-icon with-icon-button with-icon-and-icon-button"
+      className="my-searchbox-class pill-shape pill-shape-with-icon pill-shape-with-icon-button pill-shape-with-icon-and-icon-button"
       disabled={false}
       id="mySearchBoxId5"
       maxLength={100}
@@ -5518,7 +7389,7 @@ exports[`Storyshots Input Search Box 1`] = `
     </div>
     <button
       aria-disabled={false}
-      className="icon-button left-icon button button-default button-size2 icon-left"
+      className="icon-button left-icon button button-default button-size2 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -5577,7 +7448,7 @@ exports[`Storyshots Input Text Area 1`] = `
       >
         <button
           aria-disabled={false}
-          className="label-icon-button button button-default button-size3 icon-left"
+          className="label-icon-button button button-default button-size3 pill-shape icon-left"
           defaultChecked={false}
           disabled={false}
         >
@@ -5682,7 +7553,7 @@ exports[`Storyshots Input Text Input 1`] = `
       >
         <button
           aria-disabled={false}
-          className="label-icon-button button button-default button-size3 icon-left"
+          className="label-icon-button button button-default button-size3 pill-shape icon-left"
           defaultChecked={false}
           disabled={false}
         >
@@ -5718,7 +7589,7 @@ exports[`Storyshots Input Text Input 1`] = `
   <input
     aria-label="Sample text"
     autoFocus={false}
-    className="my-textinput-class with-icon with-icon-button with-icon-and-icon-button"
+    className="my-textinput-class pill-shape pill-shape-with-icon pill-shape-with-icon-button pill-shape-with-icon-and-icon-button"
     disabled={false}
     htmltype="text"
     id="myTextInputId7"
@@ -5765,7 +7636,7 @@ exports[`Storyshots Input Text Input 1`] = `
   </div>
   <button
     aria-disabled={false}
-    className="icon-button left-icon button button-default button-size2 icon-left"
+    className="icon-button left-icon button button-default button-size2 pill-shape icon-left"
     defaultChecked={false}
     disabled={false}
   >
@@ -5821,7 +7692,7 @@ exports[`Storyshots Label Labels 1`] = `
     >
       <button
         aria-disabled={false}
-        className="label-icon-button button button-default button-size3 icon-left"
+        className="label-icon-button button button-default button-size3 pill-shape icon-left"
         defaultChecked={false}
         disabled={false}
         onClick={[Function]}
@@ -6215,7 +8086,7 @@ exports[`Storyshots Match Score Default 1`] = `
     className="match-score-circle"
   />
   <p
-    className="label"
+    className="label body2"
   >
     3
     /
@@ -6256,7 +8127,7 @@ exports[`Storyshots Menu Menus 1`] = `
     aria-disabled={false}
     aria-expanded={false}
     aria-haspopup={true}
-    className="button button-default"
+    className="button button-default pill-shape"
     defaultChecked={false}
     disabled={false}
     onClick={[Function]}
@@ -6275,7 +8146,7 @@ exports[`Storyshots Menu Menus 1`] = `
 exports[`Storyshots Modal Fullscreen 1`] = `
 <button
   aria-disabled={false}
-  className="button button-primary"
+  className="button button-primary pill-shape"
   defaultChecked={false}
   disabled={false}
   onClick={[Function]}
@@ -6291,7 +8162,7 @@ exports[`Storyshots Modal Fullscreen 1`] = `
 exports[`Storyshots Modal Large 1`] = `
 <button
   aria-disabled={false}
-  className="button button-primary"
+  className="button button-primary pill-shape"
   defaultChecked={false}
   disabled={false}
   onClick={[Function]}
@@ -6307,7 +8178,7 @@ exports[`Storyshots Modal Large 1`] = `
 exports[`Storyshots Modal Medium 1`] = `
 <button
   aria-disabled={false}
-  className="button button-primary"
+  className="button button-primary pill-shape"
   defaultChecked={false}
   disabled={false}
   onClick={[Function]}
@@ -6323,7 +8194,7 @@ exports[`Storyshots Modal Medium 1`] = `
 exports[`Storyshots Modal Scrollable 1`] = `
 <button
   aria-disabled={false}
-  className="button button-primary"
+  className="button button-primary pill-shape"
   defaultChecked={false}
   disabled={false}
   onClick={[Function]}
@@ -6339,7 +8210,7 @@ exports[`Storyshots Modal Scrollable 1`] = `
 exports[`Storyshots Modal Small 1`] = `
 <button
   aria-disabled={false}
-  className="button button-primary"
+  className="button button-primary pill-shape"
   defaultChecked={false}
   disabled={false}
   onClick={[Function]}
@@ -6355,7 +8226,7 @@ exports[`Storyshots Modal Small 1`] = `
 exports[`Storyshots Modal X Large 1`] = `
 <button
   aria-disabled={false}
-  className="button button-primary"
+  className="button button-primary pill-shape"
   defaultChecked={false}
   disabled={false}
   onClick={[Function]}
@@ -6385,7 +8256,7 @@ exports[`Storyshots Pagination All Combined 1`] = `
         aria-expanded={false}
         aria-haspopup={true}
         aria-label="Selected page size"
-        className="button button-default button-size3 icon-left"
+        className="button button-default button-size3 pill-shape icon-left"
         defaultChecked={false}
         disabled={false}
         onClick={[Function]}
@@ -6435,7 +8306,7 @@ exports[`Storyshots Pagination All Combined 1`] = `
   <button
     aria-disabled={false}
     aria-label="Previous"
-    className="pagination-button button button-default button-size3 icon-left"
+    className="pagination-button button button-default button-size3 pill-shape icon-left"
     defaultChecked={false}
     disabled={false}
     onClick={[Function]}
@@ -6474,7 +8345,7 @@ exports[`Storyshots Pagination All Combined 1`] = `
         aria-checked={false}
         aria-disabled={false}
         aria-pressed={false}
-        className="pagination-button button button-default button-size3"
+        className="pagination-button button button-default button-size3 pill-shape"
         defaultChecked={false}
         disabled={false}
         onClick={[Function]}
@@ -6491,7 +8362,7 @@ exports[`Storyshots Pagination All Combined 1`] = `
         aria-checked={false}
         aria-disabled={false}
         aria-pressed={false}
-        className="pagination-button button button-default button-size3"
+        className="pagination-button button button-default button-size3 pill-shape"
         defaultChecked={false}
         disabled={false}
         onClick={[Function]}
@@ -6508,7 +8379,7 @@ exports[`Storyshots Pagination All Combined 1`] = `
         aria-checked={true}
         aria-disabled={false}
         aria-pressed={true}
-        className="pagination-button active button button-default button-size3"
+        className="pagination-button active button button-default button-size3 pill-shape"
         defaultChecked={true}
         disabled={false}
         onClick={[Function]}
@@ -6524,7 +8395,7 @@ exports[`Storyshots Pagination All Combined 1`] = `
   <button
     aria-disabled={false}
     aria-label="Next"
-    className="pagination-button button button-default button-size3 icon-left disabled"
+    className="pagination-button button button-default button-size3 pill-shape icon-left disabled"
     defaultChecked={false}
     disabled={true}
     onClick={[Function]}
@@ -6563,7 +8434,7 @@ exports[`Storyshots Pagination All Combined 1`] = `
     >
       <input
         autoFocus={false}
-        className="editor"
+        className="editor pill-shape"
         defaultValue={4}
         disabled={false}
         id="input-16"
@@ -6589,7 +8460,7 @@ exports[`Storyshots Pagination Basic Few 1`] = `
   <button
     aria-disabled={false}
     aria-label="Previous"
-    className="pagination-button button button-default button-size3 icon-left disabled"
+    className="pagination-button button button-default button-size3 pill-shape icon-left disabled"
     defaultChecked={false}
     disabled={true}
     onClick={[Function]}
@@ -6628,7 +8499,7 @@ exports[`Storyshots Pagination Basic Few 1`] = `
         aria-checked={true}
         aria-disabled={false}
         aria-pressed={true}
-        className="pagination-button active button button-default button-size3"
+        className="pagination-button active button button-default button-size3 pill-shape"
         defaultChecked={true}
         disabled={false}
         onClick={[Function]}
@@ -6645,7 +8516,7 @@ exports[`Storyshots Pagination Basic Few 1`] = `
         aria-checked={false}
         aria-disabled={false}
         aria-pressed={false}
-        className="pagination-button button button-default button-size3"
+        className="pagination-button button button-default button-size3 pill-shape"
         defaultChecked={false}
         disabled={false}
         onClick={[Function]}
@@ -6662,7 +8533,7 @@ exports[`Storyshots Pagination Basic Few 1`] = `
         aria-checked={false}
         aria-disabled={false}
         aria-pressed={false}
-        className="pagination-button button button-default button-size3"
+        className="pagination-button button button-default button-size3 pill-shape"
         defaultChecked={false}
         disabled={false}
         onClick={[Function]}
@@ -6678,7 +8549,7 @@ exports[`Storyshots Pagination Basic Few 1`] = `
   <button
     aria-disabled={false}
     aria-label="Next"
-    className="pagination-button button button-default button-size3 icon-left"
+    className="pagination-button button button-default button-size3 pill-shape icon-left"
     defaultChecked={false}
     disabled={false}
     onClick={[Function]}
@@ -6721,7 +8592,7 @@ exports[`Storyshots Pagination Basic Many 1`] = `
   <button
     aria-disabled={false}
     aria-label="Previous"
-    className="pagination-button button button-default button-size3 icon-left disabled"
+    className="pagination-button button button-default button-size3 pill-shape icon-left disabled"
     defaultChecked={false}
     disabled={true}
     onClick={[Function]}
@@ -6760,7 +8631,7 @@ exports[`Storyshots Pagination Basic Many 1`] = `
         aria-checked={true}
         aria-disabled={false}
         aria-pressed={true}
-        className="pagination-button active button button-default button-size3"
+        className="pagination-button active button button-default button-size3 pill-shape"
         defaultChecked={true}
         disabled={false}
         onClick={[Function]}
@@ -6777,7 +8648,7 @@ exports[`Storyshots Pagination Basic Many 1`] = `
         aria-checked={false}
         aria-disabled={false}
         aria-pressed={false}
-        className="pagination-button button button-default button-size3"
+        className="pagination-button button button-default button-size3 pill-shape"
         defaultChecked={false}
         disabled={false}
         onClick={[Function]}
@@ -6793,7 +8664,7 @@ exports[`Storyshots Pagination Basic Many 1`] = `
       <button
         aria-disabled={false}
         aria-label="Next 5"
-        className="pagination-button quicknext button button-default button-size3 icon-left"
+        className="pagination-button quicknext button button-default button-size3 pill-shape icon-left"
         defaultChecked={false}
         disabled={false}
         onBlur={[Function]}
@@ -6834,7 +8705,7 @@ exports[`Storyshots Pagination Basic Many 1`] = `
         aria-checked={false}
         aria-disabled={false}
         aria-pressed={false}
-        className="pagination-button button button-default button-size3"
+        className="pagination-button button button-default button-size3 pill-shape"
         defaultChecked={false}
         disabled={false}
         onClick={[Function]}
@@ -6850,7 +8721,7 @@ exports[`Storyshots Pagination Basic Many 1`] = `
   <button
     aria-disabled={false}
     aria-label="Next"
-    className="pagination-button button button-default button-size3 icon-left"
+    className="pagination-button button button-default button-size3 pill-shape icon-left"
     defaultChecked={false}
     disabled={false}
     onClick={[Function]}
@@ -6901,7 +8772,7 @@ exports[`Storyshots Pagination Change Page Size 1`] = `
         aria-expanded={false}
         aria-haspopup={true}
         aria-label="Selected page size"
-        className="button button-default button-size3 icon-left"
+        className="button button-default button-size3 pill-shape icon-left"
         defaultChecked={false}
         disabled={false}
         onClick={[Function]}
@@ -6947,7 +8818,7 @@ exports[`Storyshots Pagination Change Page Size 1`] = `
   <button
     aria-disabled={false}
     aria-label="Previous"
-    className="pagination-button button button-default button-size3 icon-left disabled"
+    className="pagination-button button button-default button-size3 pill-shape icon-left disabled"
     defaultChecked={false}
     disabled={true}
     onClick={[Function]}
@@ -6986,7 +8857,7 @@ exports[`Storyshots Pagination Change Page Size 1`] = `
         aria-checked={true}
         aria-disabled={false}
         aria-pressed={true}
-        className="pagination-button active button button-default button-size3"
+        className="pagination-button active button button-default button-size3 pill-shape"
         defaultChecked={true}
         disabled={false}
         onClick={[Function]}
@@ -7003,7 +8874,7 @@ exports[`Storyshots Pagination Change Page Size 1`] = `
         aria-checked={false}
         aria-disabled={false}
         aria-pressed={false}
-        className="pagination-button button button-default button-size3"
+        className="pagination-button button button-default button-size3 pill-shape"
         defaultChecked={false}
         disabled={false}
         onClick={[Function]}
@@ -7019,7 +8890,7 @@ exports[`Storyshots Pagination Change Page Size 1`] = `
   <button
     aria-disabled={false}
     aria-label="Next"
-    className="pagination-button button button-default button-size3 icon-left disabled"
+    className="pagination-button button button-default button-size3 pill-shape icon-left disabled"
     defaultChecked={false}
     disabled={true}
     onClick={[Function]}
@@ -7062,7 +8933,7 @@ exports[`Storyshots Pagination Dots 1`] = `
   <button
     aria-disabled={false}
     aria-label="Previous"
-    className="pagination-button button button-default button-size3 icon-left disabled"
+    className="pagination-button button button-default button-size3 pill-shape icon-left disabled"
     defaultChecked={false}
     disabled={true}
     onClick={[Function]}
@@ -7101,7 +8972,7 @@ exports[`Storyshots Pagination Dots 1`] = `
         aria-checked={true}
         aria-disabled={false}
         aria-pressed={true}
-        className="pagination-button active button button-default button-size3"
+        className="pagination-button active button button-default button-size3 pill-shape"
         defaultChecked={true}
         disabled={false}
         onClick={[Function]}
@@ -7118,7 +8989,7 @@ exports[`Storyshots Pagination Dots 1`] = `
         aria-checked={false}
         aria-disabled={false}
         aria-pressed={false}
-        className="pagination-button button button-default button-size3"
+        className="pagination-button button button-default button-size3 pill-shape"
         defaultChecked={false}
         disabled={false}
         onClick={[Function]}
@@ -7135,7 +9006,7 @@ exports[`Storyshots Pagination Dots 1`] = `
         aria-checked={false}
         aria-disabled={false}
         aria-pressed={false}
-        className="pagination-button button button-default button-size3"
+        className="pagination-button button button-default button-size3 pill-shape"
         defaultChecked={false}
         disabled={false}
         onClick={[Function]}
@@ -7151,7 +9022,7 @@ exports[`Storyshots Pagination Dots 1`] = `
   <button
     aria-disabled={false}
     aria-label="Next"
-    className="pagination-button button button-default button-size3 icon-left"
+    className="pagination-button button button-default button-size3 pill-shape icon-left"
     defaultChecked={false}
     disabled={false}
     onClick={[Function]}
@@ -7194,7 +9065,7 @@ exports[`Storyshots Pagination Jump To 1`] = `
   <button
     aria-disabled={false}
     aria-label="Previous"
-    className="pagination-button button button-default button-size3 icon-left"
+    className="pagination-button button button-default button-size3 pill-shape icon-left"
     defaultChecked={false}
     disabled={false}
     onClick={[Function]}
@@ -7233,7 +9104,7 @@ exports[`Storyshots Pagination Jump To 1`] = `
         aria-checked={false}
         aria-disabled={false}
         aria-pressed={false}
-        className="pagination-button button button-default button-size3"
+        className="pagination-button button button-default button-size3 pill-shape"
         defaultChecked={false}
         disabled={false}
         onClick={[Function]}
@@ -7250,7 +9121,7 @@ exports[`Storyshots Pagination Jump To 1`] = `
         aria-checked={false}
         aria-disabled={false}
         aria-pressed={false}
-        className="pagination-button button button-default button-size3"
+        className="pagination-button button button-default button-size3 pill-shape"
         defaultChecked={false}
         disabled={false}
         onClick={[Function]}
@@ -7267,7 +9138,7 @@ exports[`Storyshots Pagination Jump To 1`] = `
         aria-checked={false}
         aria-disabled={false}
         aria-pressed={false}
-        className="pagination-button button button-default button-size3"
+        className="pagination-button button button-default button-size3 pill-shape"
         defaultChecked={false}
         disabled={false}
         onClick={[Function]}
@@ -7283,7 +9154,7 @@ exports[`Storyshots Pagination Jump To 1`] = `
   <button
     aria-disabled={false}
     aria-label="Next"
-    className="pagination-button button button-default button-size3 icon-left"
+    className="pagination-button button button-default button-size3 pill-shape icon-left"
     defaultChecked={false}
     disabled={false}
     onClick={[Function]}
@@ -7322,7 +9193,7 @@ exports[`Storyshots Pagination Jump To 1`] = `
     >
       <input
         autoFocus={false}
-        className="editor"
+        className="editor pill-shape"
         defaultValue={5}
         disabled={false}
         id="input-18"
@@ -7352,7 +9223,7 @@ exports[`Storyshots Pagination Total Item Count 1`] = `
   <button
     aria-disabled={false}
     aria-label="Previous"
-    className="pagination-button button button-default button-size3 icon-left disabled"
+    className="pagination-button button button-default button-size3 pill-shape icon-left disabled"
     defaultChecked={false}
     disabled={true}
     onClick={[Function]}
@@ -7391,7 +9262,7 @@ exports[`Storyshots Pagination Total Item Count 1`] = `
         aria-checked={true}
         aria-disabled={false}
         aria-pressed={true}
-        className="pagination-button active button button-default button-size3"
+        className="pagination-button active button button-default button-size3 pill-shape"
         defaultChecked={true}
         disabled={false}
         onClick={[Function]}
@@ -7408,7 +9279,7 @@ exports[`Storyshots Pagination Total Item Count 1`] = `
         aria-checked={false}
         aria-disabled={false}
         aria-pressed={false}
-        className="pagination-button button button-default button-size3"
+        className="pagination-button button button-default button-size3 pill-shape"
         defaultChecked={false}
         disabled={false}
         onClick={[Function]}
@@ -7424,7 +9295,7 @@ exports[`Storyshots Pagination Total Item Count 1`] = `
       <button
         aria-disabled={false}
         aria-label="Next 5"
-        className="pagination-button quicknext button button-default button-size3 icon-left"
+        className="pagination-button quicknext button button-default button-size3 pill-shape icon-left"
         defaultChecked={false}
         disabled={false}
         onBlur={[Function]}
@@ -7465,7 +9336,7 @@ exports[`Storyshots Pagination Total Item Count 1`] = `
         aria-checked={false}
         aria-disabled={false}
         aria-pressed={false}
-        className="pagination-button button button-default button-size3"
+        className="pagination-button button button-default button-size3 pill-shape"
         defaultChecked={false}
         disabled={false}
         onClick={[Function]}
@@ -7481,7 +9352,7 @@ exports[`Storyshots Pagination Total Item Count 1`] = `
   <button
     aria-disabled={false}
     aria-label="Next"
-    className="pagination-button button button-default button-size3 icon-left"
+    className="pagination-button button button-default button-size3 pill-shape icon-left"
     defaultChecked={false}
     disabled={false}
     onClick={[Function]}
@@ -7518,7 +9389,7 @@ exports[`Storyshots Pagination Total Item Count 1`] = `
 exports[`Storyshots Panel Bottom 1`] = `
 <button
   aria-disabled={false}
-  className="button button-primary"
+  className="button button-primary pill-shape"
   defaultChecked={false}
   disabled={false}
   onClick={[Function]}
@@ -7534,7 +9405,7 @@ exports[`Storyshots Panel Bottom 1`] = `
 exports[`Storyshots Panel Large 1`] = `
 <button
   aria-disabled={false}
-  className="button button-primary"
+  className="button button-primary pill-shape"
   defaultChecked={false}
   disabled={false}
   onClick={[Function]}
@@ -7550,7 +9421,7 @@ exports[`Storyshots Panel Large 1`] = `
 exports[`Storyshots Panel Left 1`] = `
 <button
   aria-disabled={false}
-  className="button button-primary"
+  className="button button-primary pill-shape"
   defaultChecked={false}
   disabled={false}
   onClick={[Function]}
@@ -7566,7 +9437,7 @@ exports[`Storyshots Panel Left 1`] = `
 exports[`Storyshots Panel Medium 1`] = `
 <button
   aria-disabled={false}
-  className="button button-primary"
+  className="button button-primary pill-shape"
   defaultChecked={false}
   disabled={false}
   onClick={[Function]}
@@ -7582,7 +9453,7 @@ exports[`Storyshots Panel Medium 1`] = `
 exports[`Storyshots Panel Small 1`] = `
 <button
   aria-disabled={false}
-  className="button button-primary"
+  className="button button-primary pill-shape"
   defaultChecked={false}
   disabled={false}
   onClick={[Function]}
@@ -7598,7 +9469,7 @@ exports[`Storyshots Panel Small 1`] = `
 exports[`Storyshots Panel Stacked 1`] = `
 <button
   aria-disabled={false}
-  className="button button-primary"
+  className="button button-primary pill-shape"
   defaultChecked={false}
   disabled={false}
   onClick={[Function]}
@@ -7614,7 +9485,7 @@ exports[`Storyshots Panel Stacked 1`] = `
 exports[`Storyshots Panel Top 1`] = `
 <button
   aria-disabled={false}
-  className="button button-primary"
+  className="button button-primary pill-shape"
   defaultChecked={false}
   disabled={false}
   onClick={[Function]}
@@ -7654,7 +9525,7 @@ exports[`Storyshots Pill Closable 1`] = `
     <button
       aria-disabled={false}
       aria-label="Close"
-      className="close-button button button-default button-size2 icon-left"
+      className="close-button button button-default button-size2 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -7701,7 +9572,7 @@ exports[`Storyshots Pill Closable 1`] = `
     <button
       aria-disabled={false}
       aria-label="Close"
-      className="close-button button button-default button-size2 icon-left"
+      className="close-button button button-default button-size2 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -7748,7 +9619,7 @@ exports[`Storyshots Pill Closable 1`] = `
     <button
       aria-disabled={false}
       aria-label="Close"
-      className="close-button button button-default button-size2 icon-left"
+      className="close-button button button-default button-size2 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -7795,7 +9666,7 @@ exports[`Storyshots Pill Closable 1`] = `
     <button
       aria-disabled={false}
       aria-label="Close"
-      className="close-button button button-default button-size2 icon-left"
+      className="close-button button button-default button-size2 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -7837,12 +9708,12 @@ exports[`Storyshots Pill Closable 1`] = `
     <span
       className="label"
     >
-      bluegreen
+      blueGreen
     </span>
     <button
       aria-disabled={false}
       aria-label="Close"
-      className="close-button button button-default button-size2 icon-left"
+      className="close-button button button-default button-size2 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -7889,7 +9760,7 @@ exports[`Storyshots Pill Closable 1`] = `
     <button
       aria-disabled={false}
       aria-label="Close"
-      className="close-button button button-default button-size2 icon-left"
+      className="close-button button button-default button-size2 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -7936,7 +9807,7 @@ exports[`Storyshots Pill Closable 1`] = `
     <button
       aria-disabled={false}
       aria-label="Close"
-      className="close-button button button-default button-size2 icon-left"
+      className="close-button button button-default button-size2 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -7983,7 +9854,7 @@ exports[`Storyshots Pill Closable 1`] = `
     <button
       aria-disabled={false}
       aria-label="Close"
-      className="close-button button button-default button-size2 icon-left"
+      className="close-button button button-default button-size2 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -8095,7 +9966,7 @@ exports[`Storyshots Pill Default 1`] = `
     <span
       className="label"
     >
-      bluegreen
+      blueGreen
     </span>
   </div>
   <div
@@ -8170,7 +10041,7 @@ exports[`Storyshots Pill With Button 1`] = `
     <button
       aria-disabled={false}
       aria-label="Thumbs up"
-      className="button button button-default button-size2 icon-left"
+      className="button button button-default button-size2 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -8224,7 +10095,7 @@ exports[`Storyshots Pill With Button 1`] = `
     <button
       aria-disabled={false}
       aria-label="Thumbs up"
-      className="button button button-default button-size2 icon-left"
+      className="button button button-default button-size2 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -8278,7 +10149,7 @@ exports[`Storyshots Pill With Button 1`] = `
     <button
       aria-disabled={false}
       aria-label="Thumbs up"
-      className="button button button-default button-size2 icon-left"
+      className="button button button-default button-size2 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -8332,7 +10203,7 @@ exports[`Storyshots Pill With Button 1`] = `
     <button
       aria-disabled={false}
       aria-label="Thumbs up"
-      className="button button button-default button-size2 icon-left"
+      className="button button button-default button-size2 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -8381,12 +10252,12 @@ exports[`Storyshots Pill With Button 1`] = `
     <span
       className="label"
     >
-      bluegreen
+      blueGreen
     </span>
     <button
       aria-disabled={false}
       aria-label="Thumbs up"
-      className="button button button-default button-size2 icon-left"
+      className="button button button-default button-size2 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -8440,7 +10311,7 @@ exports[`Storyshots Pill With Button 1`] = `
     <button
       aria-disabled={false}
       aria-label="Thumbs up"
-      className="button button button-default button-size2 icon-left"
+      className="button button button-default button-size2 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -8494,7 +10365,7 @@ exports[`Storyshots Pill With Button 1`] = `
     <button
       aria-disabled={false}
       aria-label="Thumbs up"
-      className="button button button-default button-size2 icon-left"
+      className="button button button-default button-size2 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -8548,7 +10419,7 @@ exports[`Storyshots Pill With Button 1`] = `
     <button
       aria-disabled={false}
       aria-label="Thumbs up"
-      className="button button button-default button-size2 icon-left"
+      className="button button button-default button-size2 pill-shape icon-left"
       defaultChecked={false}
       disabled={false}
     >
@@ -8792,7 +10663,7 @@ exports[`Storyshots Pill With Icon 1`] = `
     <span
       className="label"
     >
-      bluegreen
+      blueGreen
     </span>
   </div>
   <div
@@ -9066,7 +10937,7 @@ exports[`Storyshots Select Basic 1`] = `
           aria-expanded={false}
           aria-haspopup={true}
           autoFocus={false}
-          className="select-input with-icon input-stretch"
+          className="select-input pill-shape pill-shape-with-icon input-stretch"
           disabled={false}
           id="input-20"
           onChange={[Function]}
@@ -9137,7 +11008,7 @@ exports[`Storyshots Select Disabled 1`] = `
           aria-expanded={false}
           aria-haspopup={true}
           autoFocus={false}
-          className="select-input with-icon input-stretch"
+          className="select-input pill-shape pill-shape-with-icon input-stretch"
           disabled={true}
           id="input-22"
           onChange={[Function]}
@@ -9206,7 +11077,7 @@ exports[`Storyshots Select Dynamic 1`] = `
           aria-expanded={false}
           aria-haspopup={true}
           autoFocus={false}
-          className="with-icon input-stretch"
+          className="pill-shape pill-shape-with-icon input-stretch"
           disabled={false}
           id="input-24"
           onChange={[Function]}
@@ -9282,7 +11153,7 @@ exports[`Storyshots Select Filterable 1`] = `
           aria-expanded={false}
           aria-haspopup={true}
           autoFocus={false}
-          className="with-icon input-stretch"
+          className="pill-shape pill-shape-with-icon input-stretch"
           disabled={false}
           id="input-26"
           onChange={[Function]}
@@ -9358,7 +11229,7 @@ exports[`Storyshots Select Multiple 1`] = `
           aria-expanded={false}
           aria-haspopup={true}
           autoFocus={false}
-          className="with-icon input-stretch"
+          className="pill-shape pill-shape-with-icon input-stretch"
           disabled={false}
           id="input-28"
           onChange={[Function]}
@@ -9434,7 +11305,7 @@ exports[`Storyshots Select Multiple With No Filter 1`] = `
           aria-expanded={false}
           aria-haspopup={true}
           autoFocus={false}
-          className="select-input with-icon input-stretch"
+          className="select-input pill-shape pill-shape-with-icon input-stretch"
           disabled={false}
           id="input-30"
           onChange={[Function]}
@@ -9505,7 +11376,7 @@ exports[`Storyshots Select Options Disabled 1`] = `
           aria-expanded={false}
           aria-haspopup={true}
           autoFocus={false}
-          className="select-input with-icon input-stretch"
+          className="select-input pill-shape pill-shape-with-icon input-stretch"
           disabled={false}
           id="input-32"
           onChange={[Function]}
@@ -9576,7 +11447,7 @@ exports[`Storyshots Select With Clear 1`] = `
           aria-expanded={false}
           aria-haspopup={true}
           autoFocus={false}
-          className="select-input with-icon input-stretch"
+          className="select-input pill-shape pill-shape-with-icon input-stretch"
           disabled={false}
           id="input-34"
           onChange={[Function]}
@@ -9647,7 +11518,7 @@ exports[`Storyshots Select With Default Value 1`] = `
           aria-expanded={false}
           aria-haspopup={true}
           autoFocus={false}
-          className="select-input with-icon input-stretch"
+          className="select-input pill-shape pill-shape-with-icon input-stretch"
           disabled={false}
           id="input-36"
           onChange={[Function]}
@@ -9960,7 +11831,7 @@ exports[`Storyshots Slider Standard Slider 1`] = `
 exports[`Storyshots Snack Bar Closable 1`] = `
 <button
   aria-disabled={false}
-  className="button button-default button-size3"
+  className="button button-default button-size3 pill-shape"
   defaultChecked={false}
   disabled={false}
   onClick={[Function]}
@@ -9976,7 +11847,7 @@ exports[`Storyshots Snack Bar Closable 1`] = `
 exports[`Storyshots Snack Bar Default 1`] = `
 <button
   aria-disabled={false}
-  className="button button-default button-size3"
+  className="button button-default button-size3 pill-shape"
   defaultChecked={false}
   disabled={false}
   onClick={[Function]}
@@ -9992,7 +11863,7 @@ exports[`Storyshots Snack Bar Default 1`] = `
 exports[`Storyshots Snack Bar With Action 1`] = `
 <button
   aria-disabled={false}
-  className="button button-default button-size3"
+  className="button button-default button-size3 pill-shape"
   defaultChecked={false}
   disabled={false}
   onClick={[Function]}
@@ -11598,7 +13469,7 @@ exports[`Storyshots Tooltip Tooltips 1`] = `
   <button
     aria-disabled={false}
     aria-label="Show Tooltip"
-    className="button button-primary button-size2"
+    className="button button-primary button-size2 pill-shape"
     defaultChecked={false}
     disabled={false}
   >
