@@ -3,13 +3,14 @@ import { Pager, PaginationLayoutOptions, PaginationProps } from './index';
 import { ButtonIconAlign, ButtonSize, DefaultButton } from '../Button';
 import { Dropdown } from '../Dropdown';
 import { IconName } from '../Icon';
-import { Menu, MenuItem } from '../Menu';
+import { Menu } from '../Menu';
 import { TextInput } from '../Inputs';
 import { mergeClasses } from '../../shared/utilities';
 import { useBoolean } from '../../octuple';
 import { useCanvasDirection } from '../../hooks/useCanvasDirection';
 
 import styles from './pagination.module.scss';
+import { MenuItemProps } from '../Menu/MenuItem/MenuItem.types';
 
 export const Pagination: FC<PaginationProps> = React.forwardRef(
     (
@@ -155,7 +156,7 @@ export const Pagination: FC<PaginationProps> = React.forwardRef(
         };
 
         const Overlay = (pageSizes?: number[]) => {
-            const getItems = (): MenuItem[] => {
+            const getItems = (): MenuItemProps[] => {
                 return pageSizes.map((item?: number, idx?: number) => ({
                     rowkey: idx,
                     text:
