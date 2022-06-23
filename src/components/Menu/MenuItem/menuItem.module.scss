@@ -31,11 +31,11 @@
         --label: var(--primary-color);
 
         &:active {
-            --background: var(--primary-color-10);
+            --background: var(--primary-color-20);
         }
 
         &:hover {
-            --background: var(--primary-color-20);
+            --background: var(--primary-color-10);
         }
     }
 
@@ -43,11 +43,11 @@
         --label: var(--disruptive-color);
 
         &:active {
-            --background: var(--disruptive-color-10);
+            --background: var(--disruptive-color-20);
         }
 
         &:hover {
-            --background: var(--disruptive-color-20);
+            --background: var(--disruptive-color-10);
         }
     }
 
@@ -56,11 +56,11 @@
         --label: var(--grey-color-70);
 
         &:active {
-            --background: var(--grey-color-10);
+            --background: var(--grey-color-20);
         }
 
         &:hover {
-            --background: var(--grey-color-20);
+            --background: var(--grey-color-10);
         }
     }
 }
