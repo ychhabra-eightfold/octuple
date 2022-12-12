@@ -2,6 +2,49 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.20.1](https://github.com/EightfoldAI/octuple/compare/v2.16.1...v2.20.1) (2022-12-12)
+
+### Features
+
+-   add menu subtext ([#444](https://github.com/EightfoldAI/octuple/issues/444)) ([341729f](https://github.com/EightfoldAI/octuple/commits/341729fe0d3de306f9df13bbaad6e274a256046a))
+-   add new material design icons ([#458](https://github.com/EightfoldAI/octuple/issues/458)) ([81c56ea](https://github.com/EightfoldAI/octuple/commits/81c56ead213acb8f34263cb5be86abfe8ca1e4e5))
+-   adding rtl addon ([#418](https://github.com/EightfoldAI/octuple/issues/418)) ([b65ef2c](https://github.com/EightfoldAI/octuple/commits/b65ef2c962a6dac05c7b184b9625901f730fd1ac))
+-   avatar group: add the avatar group component ([#422](https://github.com/EightfoldAI/octuple/issues/422)) ([535cfe6](https://github.com/EightfoldAI/octuple/commits/535cfe61101c5716660ea905c4a016bafd7198e1))
+-   carousel: add carousel component ([#448](https://github.com/EightfoldAI/octuple/issues/448)) ([1ce439f](https://github.com/EightfoldAI/octuple/commits/1ce439f225b0dbd972acd90e74d63025286093ac))
+-   extend navbar theming ([#456](https://github.com/EightfoldAI/octuple/issues/456)) ([95ac762](https://github.com/EightfoldAI/octuple/commits/95ac762c0848b5245c07ee70549e12ee7e1af013))
+-   implementation of search box expandable ([#408](https://github.com/EightfoldAI/octuple/issues/408)) ([aba0df7](https://github.com/EightfoldAI/octuple/commits/aba0df7586de3932e4ea69a650436a02fa9b2146))
+-   mdi icons ([#445](https://github.com/EightfoldAI/octuple/issues/445)) ([fe05c82](https://github.com/EightfoldAI/octuple/commits/fe05c823bdb743e8a7d1b48f1d0bc51c1dd778c4))
+-   pagination: add ability to hide last page ([#430](https://github.com/EightfoldAI/octuple/issues/430)) ([2a61a0c](https://github.com/EightfoldAI/octuple/commits/2a61a0c72f150111577cfbedd8d865e4067bb775))
+-   progress: add progress component to octuple ([#420](https://github.com/EightfoldAI/octuple/issues/420)) ([aa1ad1d](https://github.com/EightfoldAI/octuple/commits/aa1ad1d07572453d2eb1c2f90859ba081bb7cf4c))
+-   slider: add custom marker, dots, hide thumb, tooltip, read only support ([#431](https://github.com/EightfoldAI/octuple/issues/431)) ([3719fa5](https://github.com/EightfoldAI/octuple/commits/3719fa5f503f97b33820a9263bf02fe2010b3d6b))
+-   slider: Add inline extremity label position option ([#432](https://github.com/EightfoldAI/octuple/issues/432)) ([944b2a5](https://github.com/EightfoldAI/octuple/commits/944b2a52d34e0598efc6e9651474eb3f59075c73))
+-   stat tabs: Add stat tabs component ([#428](https://github.com/EightfoldAI/octuple/issues/428)) ([30de7c1](https://github.com/EightfoldAI/octuple/commits/30de7c168a7e3b2a69eed6d0633c79f8ae4d0b17))
+-   table: add on row hover event ([#436](https://github.com/EightfoldAI/octuple/issues/436)) ([a80f7c4](https://github.com/EightfoldAI/octuple/commits/a80f7c4e5205b7c86c8278235d80b9a5eb4b383a))
+-   tabs: Add support for large medium and small sizes to pill variant ([#455](https://github.com/EightfoldAI/octuple/issues/455)) ([c2af012](https://github.com/EightfoldAI/octuple/commits/c2af012d873057212b78810f70e7746568868843))
+-   upload: add upload component ([#426](https://github.com/EightfoldAI/octuple/issues/426)) ([2fa465e](https://github.com/EightfoldAI/octuple/commits/2fa465e876b3abd742f2b80e26c0d6885c05246c))
+-   using React.ReactNode as content type in InfoBar and Snackbar ([#435](https://github.com/EightfoldAI/octuple/issues/435)) ([13dec8e](https://github.com/EightfoldAI/octuple/commits/13dec8ec999407133f29c6e569f2fc936c04092e))
+-   varTheme based theming ([#446](https://github.com/EightfoldAI/octuple/issues/446)) ([a692b41](https://github.com/EightfoldAI/octuple/commits/a692b41afd7f30a9c7cd24d0e76216badc288731))
+
+### Bug Fixes
+
+-   added row key ([#441](https://github.com/EightfoldAI/octuple/issues/441)) ([07cba48](https://github.com/EightfoldAI/octuple/commits/07cba489d1b2adc319e7654b374993c56dcf68d5))
+-   changed mouse event on table row hover ([#443](https://github.com/EightfoldAI/octuple/issues/443)) ([b856c89](https://github.com/EightfoldAI/octuple/commits/b856c89679249d1e419259685966b4d5825b1d53))
+-   datepicker: refine animations, updates icon buttons to round and fixes today and week styles ([#453](https://github.com/EightfoldAI/octuple/issues/453)) ([49516d3](https://github.com/EightfoldAI/octuple/commits/49516d3302c2cee40beaaf3f7fc8560a7453785b))
+-   dropdown: remove force focus on portaled dropdown ([#423](https://github.com/EightfoldAI/octuple/issues/423)) ([a7e894a](https://github.com/EightfoldAI/octuple/commits/a7e894aaf3af85e65624fd3ce875aa17d9e684c9))
+-   dropdown: remove inputRef from dropdown and use update method to fix position ([#421](https://github.com/EightfoldAI/octuple/issues/421)) ([da8c7e7](https://github.com/EightfoldAI/octuple/commits/da8c7e79995f58c3fc23f4d2a5d94f517076c8f5))
+-   export stats tab ([#459](https://github.com/EightfoldAI/octuple/issues/459)) ([6eb35fd](https://github.com/EightfoldAI/octuple/commits/6eb35fd939a7a37758f81a5de59b90d039cfd9cc))
+-   exports: adds progress size and avatar group to exports ([#425](https://github.com/EightfoldAI/octuple/issues/425)) ([5028ace](https://github.com/EightfoldAI/octuple/commits/5028ace9f0de8f0da8ef492a22fd2c47cd76317b))
+-   form: add portal prop to tooltip to fix tooltip in modal ([#424](https://github.com/EightfoldAI/octuple/issues/424)) ([5c6beed](https://github.com/EightfoldAI/octuple/commits/5c6beedfe77a9c5d27f31b696cbaa6b4fa573f67))
+-   pagination: fixes pagination aria attributes ([#433](https://github.com/EightfoldAI/octuple/issues/433)) ([6c39b82](https://github.com/EightfoldAI/octuple/commits/6c39b82177e581397726a953b7adf8a261928346))
+-   pill: fixes pill button hover and active styles to inherit from pill ([#457](https://github.com/EightfoldAI/octuple/issues/457)) ([ec71c91](https://github.com/EightfoldAI/octuple/commits/ec71c911d33d5e07eb09989dd6c1fac90843b9bb))
+-   search box: pressing enter key clears text when clearable is true ([#427](https://github.com/EightfoldAI/octuple/issues/427)) ([498947c](https://github.com/EightfoldAI/octuple/commits/498947c216bab9777957623bf58bb39a7b37d70a))
+-   security: dependabot audit deps fixup and upgrade vulnerable packages ([#437](https://github.com/EightfoldAI/octuple/issues/437)) ([4911307](https://github.com/EightfoldAI/octuple/commits/49113076877b13a39e2f1d7e3752ccce53d12fe3))
+-   security: dependabot audit deps fixup and upgrade vulnerable packages part two ([#440](https://github.com/EightfoldAI/octuple/issues/440)) ([e1af748](https://github.com/EightfoldAI/octuple/commits/e1af748dbe1de218690e994a4666c8f9d56f25cc))
+-   slider: fixes collision detection in grid layouts ([#429](https://github.com/EightfoldAI/octuple/issues/429)) ([5981e55](https://github.com/EightfoldAI/octuple/commits/5981e55d10438a4edad619816fe38eca18f74e5a))
+-   slider: slider track width when isrange and showmarkers false and values intersect ([#449](https://github.com/EightfoldAI/octuple/issues/449)) ([c9ca0b5](https://github.com/EightfoldAI/octuple/commits/c9ca0b539a47e6ff958bf48eac2bb4317705d652))
+-   table: updates large size insets so they are not the same as medium ([#454](https://github.com/EightfoldAI/octuple/issues/454)) ([b923215](https://github.com/EightfoldAI/octuple/commits/b9232152d2d252d15c63264c9a3575062fafe224))
+-   table: updates use selection hook selectors to have ids by row key ([#439](https://github.com/EightfoldAI/octuple/issues/439)) ([e4b9579](https://github.com/EightfoldAI/octuple/commits/e4b9579833a4f1966bcfa364a6c0e95ec919ae9e))
+
 ## [2.20.0](https://github.com/EightfoldAI/octuple/compare/v2.19.0...v2.20.0) (2022-12-10)
 
 ### Features
