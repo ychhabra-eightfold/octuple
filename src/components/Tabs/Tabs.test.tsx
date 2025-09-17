@@ -595,6 +595,27 @@ describe('Tabs Keyboard Navigation', () => {
     );
   });
 
+  it('should activate tab with Space key', () => {
+    const wrapper = mount(<KeyboardTabsWrapper />);
+    const tabButtons = wrapper.find('button[role="tab"]');
+
+    // Start on tab1, navigate to tab2 with ArrowRight
+    tabButtons.at(0).simulate('keyDown', { key: 'ArrowRight' });
+    wrapper.update();
+
+    // Tab1 should still be active
+    expect(wrapper.find('button[role="tab"]').at(0).hasClass('active')).toBe(
+      true
+    );
+
+    // Space should activate tab2
+    tabButtons.at(1).simulate('keyDown', { key: ' ' });
+    wrapper.update();
+    expect(wrapper.find('button[role="tab"]').at(1).hasClass('active')).toBe(
+      true
+    );
+  });
+
   it('should move focus to last enabled tab with End key', () => {
     const wrapper = mount(<KeyboardTabsWrapper />);
     const tabButtons = wrapper.find('button[role="tab"]');

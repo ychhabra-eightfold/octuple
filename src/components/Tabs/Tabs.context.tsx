@@ -132,6 +132,7 @@ const TabsProvider = ({
           event.preventDefault();
           break;
         case 'Enter':
+        case ' ':
           const currentTab = tabsRef?.current?.[tabIndex];
           if (currentTab) {
             const tabValue = currentTab.getAttribute('data-value');
